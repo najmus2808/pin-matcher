@@ -12,33 +12,33 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="pin-generator half-width">
-                    <input class="form-control" type="text">
-                    <button class="generate-btn">Generate Pin</button>
+                    <input id="left-text-area" class="form-control text-align" type="text">
+                    <button id="generate-pin-btn" class="generate-btn">Generate Pin</button>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="input-section half-width">
-                    <input class="form-control" type="text">
+                    <input id="right-text-area" class="form-control text-align" type="text">
                     <div class="numbers">
                         <div class="calc-body">
                             <div class="calc-button-row">
-                              <div class="button">7</div>
-                              <div class="button">8</div>
-                              <div class="button">9</div>
+                              <div class="button" onclick="insert(7)">7</div>
+                              <div class="button" onclick="insert(8)">8</div>
+                              <div class="button" onclick="insert(9)">9</div>
                             </div>
                             <div class="calc-button-row">
-                              <div class="button">4</div>
-                              <div class="button">5</div>
-                              <div class="button">6</div>
+                              <div class="button" onclick="insert(4)">4</div>
+                              <div class="button" onclick="insert(5)">5</div>
+                              <div class="button" onclick="insert(6)">6</div>
                             </div>
                             <div class="calc-button-row">
-                              <div class="button">1</div>
-                              <div class="button">2</div>
-                              <div class="button">3</div>
+                              <div class="button" onclick="insert(1)">1</div>
+                              <div class="button" onclick="insert(2)">2</div>
+                              <div class="button" onclick="insert(3)">3</div>
                             </div>
                             <div class="calc-button-row">
                                 <div class="button"><</div>
-                                <div class="button">0</div>
+                                <div class="button" onclick="insert(0)">0</div>
                                 <div class="button">C</div>
                             </div>
                             <div>
@@ -54,5 +54,6 @@
             <p class="notify">✅ Pin Matched... Secret door is opening for you</p>
         </div>
     </div>
+   <script src="script.js"></script> 
 </body>
 </html>
