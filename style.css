@@ -11,7 +11,6 @@ body {
 .text-align{
     text-align: center;
 }
-
 .half-width {
     height: 570px;
     background: #222436;
@@ -34,7 +33,6 @@ body {
     outline: none;
     box-shadow: none;
 }
-
 input[type='text']{
     background-color: #3D4153;
     padding: 10px 0px;
@@ -60,11 +58,9 @@ font-size: 45px;
 text-align: right;
 color: #fff;
 }
-
 .calc-button-row {
 width: 100%;
 }
-
 .button {
 width: 20%;
 background: #425062;
